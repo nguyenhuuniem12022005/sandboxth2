@@ -3,7 +3,7 @@
  *
  * @param {string} url      The URL to issue the GET request.
  */
-const API_BASE = (process.env.REACT_APP_API_URL || "http://localhost:8081").replace(/\/$/, "");
+const API_BASE = (process.env.REACT_APP_API_URL || "https://3cqttk-8081.csb.app").replace(/\/$/, "");
 
 async function fetchModel(url) {
   const path = url.startsWith("/") ? url : `/${url}`;
