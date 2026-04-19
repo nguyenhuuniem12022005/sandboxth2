@@ -1,8 +1,8 @@
 # Dependencies
 node_modules/
 
-# Environment variables (chứa password - KHÔNG push lên GitHub)
-.env
+# Environment variables
+# .env
 
 # Build output
 frontend/build/
