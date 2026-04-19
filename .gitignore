@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Environment variables (chứa password - KHÔNG push lên GitHub)
+.env
+
+# Build output
+frontend/build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Reference folder (không cần push)
+photo-graph-web-main/
